@@ -7,14 +7,14 @@ var nextTick = function(fn) {
 
 // Allow two frames difference
 var correctish = function(a, b) {
-  return Math.abs(a - b) <= 2
+  return Math.abs(a - b) <= 1
 }
 
 tape('it runs at the given frame rate', function(test) {
   test.plan(1)
 
   var count = 0
-  var fps = 24
+  var fps = 3
   var counter = animate(function() {
     count++
   }, fps)
@@ -31,7 +31,7 @@ tape('it pauses', function(test) {
   test.plan(1)
 
   var count = 0
-  var fps = 25
+  var fps = 3
   var counter = animate(function() {
     count++
   }, fps)
@@ -49,7 +49,7 @@ tape('it resumes', function(test) {
   test.plan(1)
 
   var count = 0
-  var fps = 25
+  var fps = 3
   var counter = animate(function() {
     count++
   }, fps)
