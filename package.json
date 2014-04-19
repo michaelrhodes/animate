@@ -28,11 +28,10 @@
     "type": "git",
     "url": "git://github.com/michaelrhodes/animate"
   },
-  "keywords": ["animation", "fps" "requestAnimationFrame", "raf"],
+  "keywords": ["animation", "fps", "requestAnimationFrame", "raf"],
   "author": "Michael Rhodes",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/michaelrhodes/animate/issues"
-  },
-  "homepage": "https://github.com/michaelrhodes/animate"
+  }
 }
