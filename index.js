@@ -19,12 +19,15 @@ var Animate = function(frame, fps) {
 Animate.prototype.pause = function() {
   raf.cancel(this.id)
   this.id = null  
+  return this
 }
 
 Animate.prototype.resume = function() {
   if (this.id == null) {
     this.start()
   }
+
+  return this
 }
 
 Animate.prototype.start = function() {
