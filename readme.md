@@ -3,6 +3,8 @@ animate is a small wrapper around requestAnimationFrame that adds a frame rate c
 
 [![Browser support](https://ci.testling.com/michaelrhodes/animate.png)](https://ci.testling.com/michaelrhodes/animate)
 
+<small>Older browsers might require a polyfill for [Function.prototype.bind](http://kangax.github.io/es5-compat-table/#Function.prototype.bind).<small>
+
 ## Install
 ```sh
 $ npm install animate
