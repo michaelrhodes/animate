@@ -1,5 +1,5 @@
 # animate
-animate is a small wrapper around requestAnimationFrame that adds a frame rate constraint. It also provides simple `pause` and `resume` methods.
+animate is a small wrapper around requestAnimationFrame that adds a frame rate constraint. It also provides simple `pause` and `resume` methods. The code is based on [this blog article](http://codetheory.in/controlling-the-frame-rate-with-requestanimationframe/).
 
 [![Browser support](https://ci.testling.com/michaelrhodes/animate.png)](https://ci.testling.com/michaelrhodes/animate)
 

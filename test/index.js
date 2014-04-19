@@ -5,9 +5,9 @@ var nextTick = function(fn) {
   setTimeout(fn, 0)
 }
 
-// Allow one frame difference
+// Allow two frames difference
 var correctish = function(a, b) {
-  return Math.abs(a - b) <= 1
+  return Math.abs(a - b) <= 2
 }
 
 tape('it runs at the given frame rate', function(test) {

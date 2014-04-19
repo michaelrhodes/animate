@@ -1,6 +1,6 @@
 {
   "name": "animate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A small wrapper around requestAnimationFrame that adds a frame rate constraint.",
   "main": "index.js",
   "dependencies": {
