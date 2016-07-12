@@ -1,4 +1,4 @@
-var raf = require('raf-component')
+var raf = require('rafl')
 
 var Animate = function(frame, fps) {
   if (!(this instanceof Animate)) {

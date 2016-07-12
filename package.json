@@ -4,13 +4,14 @@
   "description": "A small wrapper around requestAnimationFrame that adds a frame rate constraint.",
   "main": "index.js",
   "dependencies": {
-    "raf-component": "~1.1.2"
+    "rafl": "~1.2.2"
   },
   "devDependencies": {
-    "tape": "~2.12.3"
+    "tape": "~4.5.1",
+    "testling": "~1.7.1"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "testling -u"
   },
   "testling": {
     "files": "test/*.js",
